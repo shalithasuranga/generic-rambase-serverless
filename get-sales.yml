@@ -1,0 +1,12 @@
+
+  provider:
+    name: faas
+    gateway: http://172.20.5.81:31112
+
+  functions:
+    get-sales:
+      lang: Dockerfile
+      handler: .
+      image: sharancher/get-sales:latest
+
+  
