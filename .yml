@@ -1,0 +1,22 @@
+
+
+provider:
+
+  name: faas
+
+  gateway: http://172.20.5.81:31112
+
+
+
+functions:
+
+  :
+
+    lang: Dockerfile
+
+    handler: .
+
+    image: sharancher/:latest
+
+
+
